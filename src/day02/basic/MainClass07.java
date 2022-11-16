@@ -8,6 +8,7 @@ package day02.basic;
  * -문자열을 저장할수있다.
  * 
  * 기본혈- boolean,char,byte,short,int,long,float,double
+ * *참조형-기본형을 제외한 모든 클래스
  * 
  */
 public class MainClass07 {
@@ -15,6 +16,12 @@ public class MainClass07 {
 		//변수선언과 동시에 값 대입하기
 		String str="안녕하세요";
 		System.out.println("str:"+str);
+		
+		boolean.arrs=arrs.contain
+		if(isContain) {
+			System.out.println("addr 에는 특별시라는 문자열이 있어요");
+		}
+		
 }
 
 }
