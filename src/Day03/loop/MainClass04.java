@@ -30,6 +30,16 @@ package Day03.loop;
  */
 public class MainClass04 {
 public static void main(String[] args) {
+	
+	
+	for(int i=0; i<7;i++) {   //줄(행)을 의미
+		for(int j=0; j<=i; j++) { //칸(열)을 의미
+		System.out.print("*");
+		
+		} 
+		System.out.println();
+	}
+	
 	//1번숙제분석
 	for(int i=0; i<7;i++) {
 		for(int j=0; j<=i; j++) {
