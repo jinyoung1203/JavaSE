@@ -1,4 +1,7 @@
 package day05.var;
+
+import day05.mypac.Card;
+
 /*
  * [[변수(variable)]]
  *  * 변수란
@@ -22,22 +25,44 @@ package day05.var;
  * 							중괄호{} 안에 선언된 변수.
  * 							반드시 초기화 해줘야 한다. (컴파일 에러)
  * 
+ * 3.정적(static) / 동적 변수
+ * 		
+ * 
  * 
  * !초기화 = 처음값을 대입
  * 
  */
 public class MainClass01 {
-	public static String gVar;
-	
 	
 	
 	public static void main(String[] args) {
-		String lVar =" ";
+			Card c1 = new Card();
+			Card c2= new Card();
+			
+			System.out.println( );
+			
 		
-		System.out.println(gVar);
-		System.out.println(lVar);
+			
+			c2.cardType="heart";
+			c2.number="k";
+			c2.width=65;
+			c2.height=90;
+			
+			System.out.println("c2.cardType :"+c2.cardType);
+			System.out.println("c2.number:"+c2.number);
+			System.out.println("c2,width:"+c2.width);
+			System.out.println("c2.height:"+c2.height);
+			
+			System.out.println("c1.cardType:"+c1.cardType);
+			System.out.println("c1.number:"+c1.number);
+			System.out.println("c1.width:"+c1.width);
+			System.out.println("c1.height:"+c1.height);
 		
+			System.out.println();
+			
 		
+	
+	
 	}
 	
 	
