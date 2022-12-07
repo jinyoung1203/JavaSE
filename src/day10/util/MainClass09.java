@@ -3,7 +3,7 @@ package day10.util;
 import java.util.Random;
 
 /*
- * 
+ * 로또넘
  * 
  */
 public class MainClass09 {
