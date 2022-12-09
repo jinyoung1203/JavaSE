@@ -16,17 +16,17 @@ public class MainClass07 {
 		Calendar calNow = Calendar.getInstance(); //싱글톤 패턴(디자인패턴)
 		
 		int year = calNow.get(Calendar.YEAR);
-		System.out.println("올해 년도:" + year);
+		System.out.println("올해 년도:" + year);//년도
 		
 		int month = calNow.get(Calendar.MONTH)+1;
-		System.out.println("월:"+month);
+		System.out.println("월:"+month);//달
 		
 		int day =calNow.get(Calendar.DAY_OF_MONTH);
-		System.out.println("일:"+day);
+		System.out.println("일:"+day);//일
 		
-		int hour = calNow.get(Calendar.HOUR);
-		int min = calNow.get(Calendar.MINUTE);
-		int sec = calNow.get(Calendar.SECOND);
+		int hour = calNow.get(Calendar.HOUR);//시
+		int min = calNow.get(Calendar.MINUTE);//분
+		int sec = calNow.get(Calendar.SECOND);//초
 		System.out.println(hour+":" +min+":" +sec);
 		
 		

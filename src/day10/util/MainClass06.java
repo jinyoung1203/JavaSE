@@ -27,6 +27,7 @@ public static void main(String[] args) throws ParseException {
 	
 	String yesterday = "2022.12.06 21:12:56";
 	
+	// 문자열 날짜 정보 Date 객체로 반환
 	Date yDate =sdf.parse(yesterday);
 	
 	System.out.println(yDate);
