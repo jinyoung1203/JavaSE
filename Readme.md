@@ -18,7 +18,7 @@ Class 클래스명{
  
  ### 객체 구성요소   
    - 변수 - 특징, 속성 값      
-   	- 타입     
+   	- 타입        
    		- 기본형(8개) - boolean, byte, char,short, int, long, float ,double (stack메모리생성)   
    		- 참조형 - 기본형 외 모든 변수 --> 객체 주소값 가지고 있는 변수 (heap메모리생성)   
    	- 선언위치   
