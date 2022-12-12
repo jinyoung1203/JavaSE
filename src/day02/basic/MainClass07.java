@@ -17,12 +17,14 @@ public class MainClass07 {
 		String str="안녕하세요";
 		System.out.println("str:"+str);
 		
-		boolean.arrs=arrs.contain
-		if(isContain) {
-			System.out.println("addr 에는 특별시라는 문자열이 있어요");
+		String addr = "서울 특별시 서대문구 신촌";
+		boolean isContain = addr.contains("특별시");
+		if(isContain) {	// true 이면 실행
+			System.out.println("addr 에는 특별시 라는 문자열이 있어요!");
+		}
 		}
 		
 }
 
-}
+
 

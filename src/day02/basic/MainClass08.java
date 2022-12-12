@@ -15,10 +15,11 @@ package day02.basic;
  * 2.\t: 탭기능
  * 3.\\:\를 문자화
  * 4.\':'을 문자화
+ * 5.\":"를 문자화
  * 
  */
 
-public class DayClass08 {
+public class MainClass08 {
 public static void main(String[] args) {
 	String str1="\"JavaStudy\"";
 	System.out.println(str1);
